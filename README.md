@@ -2,7 +2,7 @@
 
 Resize the browser window, as a React component.
 
-## Installatino
+## Installation
 
 ```bash
 $ npm install react-window-resize

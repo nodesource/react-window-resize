@@ -10,7 +10,8 @@ $ npm install react-window-resize
 
 ## Usage
 
-```js
+```jsx
+import React from 'react'
 import WindowResize from 'react-window-resize'
 
 const Example = () => (

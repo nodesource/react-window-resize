@@ -1,0 +1,17 @@
+{
+  "name": "react-window-resize",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "nodesource/react-window-resize",
+  "description": "Resize the browser window",
+  "scripts": {
+    "test": "prettier-standard '**/*.js' && standard"
+  },
+  "devDependencies": {
+    "prettier-standard": "^8.0.0",
+    "standard": "^11.0.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0"
+  }
+}

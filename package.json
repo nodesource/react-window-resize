@@ -1,6 +1,6 @@
 {
   "name": "react-window-resize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "nodesource/react-window-resize",
   "description": "Resize the browser window",

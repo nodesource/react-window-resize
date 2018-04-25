@@ -4,13 +4,11 @@
   "license": "MIT",
   "repository": "nodesource/react-window-resize",
   "description": "Resize the browser window",
-  "main": "dist/index.js",
   "module": "esm/index.js",
   "scripts": {
-    "prepublishOnly": "npm run build:esm && npm run build:commonjs",
+    "prepublishOnly": "npm run build:esm",
     "test": "prettier-standard '**/*.js' && standard",
-    "build:esm": "BABEL_ENV=esm babel index.js --out-dir esm",
-    "build:commonjs": "BABEL_ENV=commonjs babel index.js --out-dir dist"
+    "build:esm": "BABEL_ENV=esm babel index.js --out-dir esm"
   },
   "peerDependencies": {
     "react": "^16.2.0"

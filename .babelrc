@@ -1,5 +1,9 @@
 {
   "env": {
+    "commonjs": {
+      "presets": ["env", "react"],
+      "plugins": ["transform-runtime"]
+    },
     "esm": {
       "presets": [
         [
@@ -10,9 +14,7 @@
         ],
         "react"
       ],
-      "plugins": [
-        "transform-runtime"
-      ]
+      "plugins": ["transform-runtime"]
     }
   }
 }

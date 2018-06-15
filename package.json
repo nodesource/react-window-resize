@@ -8,7 +8,7 @@
   "module": "esm/index.js",
   "scripts": {
     "prepublishOnly": "npm run build:esm && npm run build:commonjs",
-    "test": "prettier-standard '**/*.js' && standard",
+    "test": "standard",
     "build:esm": "BABEL_ENV=esm babel index.js --out-dir esm",
     "build:commonjs": "BABEL_ENV=commonjs babel index.js --out-dir dist"
   },
@@ -24,7 +24,6 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "prettier-standard": "^8.0.0",
     "standard": "^11.0.0"
   }
 }

@@ -15,7 +15,7 @@ import React from 'react'
 import WindowResize from 'react-window-resize'
 
 const Example = () => (
-  <WindowResize width=800 height=600>
+  <WindowResize width={800} height={600}>
     When I'm mounted, the window size will be set to 800x600px.
   </WindowResize>
 )

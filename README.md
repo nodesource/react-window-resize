@@ -25,7 +25,7 @@ const Example = () => (
 
 ### `<WindowResize [width] [height]>`
 
-`width` and `height` default to the current window dimenions, so you can omit one if you only want to set the other.
+`width` and `height` default to the current window dimensions, so you can omit one if you only want to set the other.
 
 ## License
 
